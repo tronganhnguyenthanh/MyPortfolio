@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body{
+ font-family:"Roboto", sans-serif;
+}
+
+html{
+ overflow-x:hidden;
+ overflow-y:scroll;
+}
+
+.portfolio{
+  width:12%;
+  border-radius:50%;
+}
+
+.bg-portfolio{
+  border-radius:5px;
+  background-color:lightseagreen;
+  margin:12px;
+}
+
+.firstName{
+  font-size:18px;
+  color:#fff;
+  font-style:italic;
+  text-decoration:underline;
+  font-weight:600;
+}
+
+.section-introduction{
+  width:100%;
+  height:auto;
+}
+
+.about-me{
+  font-size:18px;
+  color:darksalmon;
+  font-style:bold;
+}
+
+.aboutMe{
+  color:lightcoral;
+}
+
+.introduction{
+  color:blueviolet;
+}
+
+.section-introduction > .container > h2{
+  font-size:48px;
+  color:lightcoral;
+}
+
+.section-objective > h2{
+  font-size:36px;
+  color:lightcoral;
+}
+
+.section-objective > p{
+  color:gray;
+}
+
+.section-experience > h2{
+  text-align:center;
+  color:lightcoral;
+}
+
+.border-exp{
+  width:0;
+  height:250px;
+  border:1px solid lightgray;
+  margin:-15px auto;
+}
+
+.workExp{
+  font-size:36px;
+  text-align:center;
+  color:darkorchid;
+  white-space:nowrap;
+}
+
+.timeline{
+  padding:70px;
+  color:#fff;
+  font-size:18px;
+  white-space:nowrap;
+}
+
+.workExp-spacing{
+  width:100%;
+  height:auto;
+  background-color:lightgray;
+  padding:30px;
+  border-radius:25px;
+}
+
+.project-name{
+  color:#08f;
+}
+
+.project-content{
+  color:gray;
+}
+
+.project-name-padding{
+  margin-left:-175px;
+}
+
+.section-skills > h2{
+  font-size:36px;
+  color:lightcoral;
+  text-align:center;
+}
+
+.section-wrapper{
+  width:70%;
+  height:auto;
+  border:none;
+  background-color:burlywood;
+  border-radius:20px;
+  margin:0 auto;
+}
+
+.section-wrapper > h5{
+  text-align:center;
+  color:#fff;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+  background-color:#000000;
+}
+
+.footer-social{
+  font-size:18px;
+  padding:10px;
+}
+
+.footer-social:hover{
+  text-decoration:none;
+}
+
+.footer-contact{
+  color:#fff;
+}
+
+.footer-contact:hover{
+  text-decoration:none;
+  color:#fff;
+}
+
+iframe{
+ border:none;
+}
+
+@media (max-width: 576px){
+  .nav-link{
+    padding: .5rem 0rem;
+  }
+  
+  .project-name-padding{
+    margin-left:0;
+    padding:20px;
+  }
+
+  .section-wrapper{
+    margin:0 auto;
+  }
+
+  .footer{
+    padding:20px;
+  }
+
+  .footer-social{
+    padding:0;
+    margin-left:150px;
+  }
+
+  .footer-contact{
+    margin-left:130px
+  }
+}
