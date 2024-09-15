@@ -196,8 +196,4 @@ iframe{
   .workExp-spacing{
     margin-left:0;
   }
-
-  body{
-   touch-action:none;
-  }
 }
