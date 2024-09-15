@@ -21,10 +21,15 @@ function getInputValue(){
   document.querySelector(".aboutMe").style.padding = "4px"
   document.querySelector(".aboutMe").style.textAlign = "center"
   document.querySelector(".aboutMe").style.color = "#fff"
-  document.querySelector(".section-objective").style.backgroundColor = value
+  document.querySelector(".section-objective > h2").style.backgroundColor = value
   document.querySelector(".section-objective > h2").style.color = "#fff"
-  document.querySelector(".section-objective > p").style.color = "#fff"
   document.querySelector(".section-objective > p").style.textAlign = "center"
   document.querySelector(".section-objective > h2").style.textAlign = "center"
-  document.querySelector(".section-skills").style.backgroundColor = value
+  document.querySelector(".section-skills > h2").style.backgroundColor = value
+  document.querySelector(".workExp").style.backgroundColor = value
+  document.querySelector(".workExp").style.color = "#fff"
+  document.querySelector(".project-name").style.backgroundColor = value
+  document.querySelector(".project-name").style.textAlign = "center"
+  document.querySelector(".project-name").style.color = "#fff"
+  document.querySelector(".section-skills > h2").style.color = "#fff"
 }
