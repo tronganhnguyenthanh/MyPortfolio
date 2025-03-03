@@ -158,6 +158,14 @@ html{
   color:#fff;
 }
 
+.form-control:focus{
+  box-shadow:none !important;
+}
+
+.form-control{
+  border-radius:50px !important;
+}
+
 iframe{
  border:none;
 }
@@ -193,6 +201,10 @@ summary::marker{
 
 ul li{
  text-align:center;
+}
+
+.searchEngine-spacing-top{
+  padding-top:25% !important;
 }
 
 @media (max-width: 576px){
