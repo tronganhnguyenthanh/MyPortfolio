@@ -47,8 +47,8 @@ function getProjectCategory(){
      bgColor:"#ffa233"
    },
    {
-     name:"A funny quiz",
-     urlLink:"https://quiz-api-call.vercel.app/login.html",
+     name:"Post management",
+     urlLink:"https://restful-api-sable.vercel.app",
      bgColor:"darkblue"
    }
   ]
