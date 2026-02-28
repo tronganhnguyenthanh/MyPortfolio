@@ -42,11 +42,6 @@ function getProjectCategory(){
      bgColor:"dodgerblue"
    },
    {
-     name:"Course Management System",
-     urlLink:"https://new-courseupdate.surge.sh",
-     bgColor:"#ffa233"
-   },
-   {
      name:"Post management",
      urlLink:"https://restful-api-sable.vercel.app",
      bgColor:"darkblue"
