@@ -208,6 +208,11 @@ ul li{
   padding-top:25% !important;
 }
 
+.iframe-custom{
+  width:100% !important;
+  height:150vh;
+}
+
 @media (max-width: 576px){
   .nav-link{
     padding: .5rem 0rem;
